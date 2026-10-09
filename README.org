@@ -1,0 +1,9 @@
+This repo contains data and source code for an interactive data
+visualization showing results of using git bisect to identify a
+performance regression in data.table::fread() in R.
+
+[[file:tests.R]] is the data.table/.ci/atime/tests.R file that was used, with three Fast/Slow variants.
+See details https://github.com/Rdatatable/data.table/pull/7907.
+tl;dr atime::bisect() was used three times, resulting in the three result directories in this repo.
+
+[[file:bisect-7907.R]] is the source code for the data viz, [[https://github.com/Rdatatable/data.table/pull/7907][viewable here]].
