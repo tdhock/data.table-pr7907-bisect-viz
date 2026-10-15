@@ -1,0 +1,2 @@
+Test,old.name,new.name
+fread N=cols regression,PR7406,Slow
